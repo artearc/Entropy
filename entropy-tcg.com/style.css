@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.573),
+            rgba(0, 0, 0, 0.5)), url("stock-images/fluid-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header{
+    background-color:black;
+    width: 100%;
+    display: contents;
+    position: fixed;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.6em;
+}
+.nav a {
+    color: whitesmoke;
+    transition-duration: 0.5s;
+}
+
+header .navHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction:initial;
+    text-align:left;
+    padding-bottom: 25px;
+}
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+header a:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+header .navHeader {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 700px;
+}
+.navHeader{
+    max-width: 1400px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 8%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+}
