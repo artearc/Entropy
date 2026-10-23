@@ -1,0 +1,448 @@
+aspects/01§g+ g+
+aspects/02§n
+aspects/03§n
+aspects/04§n n
+aspects/05§n n
+aspects/06§n
+aspects/07§n n
+aspects/08§n n
+aspects/09§n n
+aspects/10§n n
+aspects/11§n+
+aspects/12§n n
+aspects/13§n+
+aspects/14§n n n
+aspects/15§n+ n+
+aspects/16§n n
+aspects/17§n n
+aspects/18§n+
+aspects/19§n-
+aspects/20§n-
+aspects/21§n-
+aspects/22§n+
+aspects/23§n+
+aspects/24§n+ n+
+aspects/25§r b
+aspects/26§r b
+aspects/27§r b
+aspects/28§r b
+aspects/29§r g
+aspects/30§r g
+aspects/31§r g b
+aspects/32§g b
+aspects/33§g b
+aspects/34§r b
+aspects/35§r b
+aspects/36§r b
+aspects/37§g b
+aspects/38§r- r-
+aspects/39§r-
+aspects/40§r
+aspects/41§r-
+aspects/42§r r
+aspects/43§r-
+aspects/44§r r
+aspects/45§r+
+aspects/46§r+ r+
+aspects/47§r r r
+aspects/48§r r r
+aspects/49§g-
+aspects/50§g g g
+aspects/51§g-
+aspects/52§g+ g+
+aspects/53§g- g-
+aspects/54§g+ g+
+aspects/55§g+
+aspects/56§g+ g+
+aspects/57§b b
+aspects/58§b b b
+aspects/59§b-
+aspects/60§b
+aspects/61§b-
+aspects/62§b b b
+aspects/63§b- b-
+aspects/64§b-
+aspects/65§b+
+aspects/66§b+
+aspects/67§b+
+event_blue/01§b+
+event_blue/02§b b
+event_blue/03§b
+event_blue/04§b
+event_blue/05§b
+event_blue/06§b
+event_blue/07§b b
+event_blue/08§b
+event_blue/09§b
+event_blue/10§b
+event_blue/11§b b
+event_blue/12§b b
+event_blue/13§b b
+event_blue/14§b b
+event_blue/15§b b b
+event_blue/16§b
+event_blue/17§b b
+event_blue/18§b b
+event_blue/19§b b b
+event_blue/20§b b b
+event_blue/21§b b
+event_blue/22§b b
+event_blue/23§b b
+event_blue/24§b b b
+event_blue/25§b b
+event_blue/26§b+
+event_blue/27§b-
+event_blue/28§b-
+event_blue/29§b+
+event_blue/30§b+
+event_blue/31§b-
+event_blue/32§b- b-
+event_blue/33§b-
+event_blue/34§b- b
+event_blue/35§b-
+event_blue/36§b-
+event_blue/37§b-
+event_green/01§g+
+event_green/02§g
+event_green/03§g
+event_green/04§g g
+event_green/05§g+
+event_green/06§g+
+event_green/07§g-
+event_green/08§g- g-
+event_green/09§g
+event_green/10§g g
+event_green/11§g g
+event_green/12§g g g
+event_green/13§g+
+event_green/14§g-
+event_green/15§g-
+event_green/16§g-
+event_green/17§g+ g+
+event_green/18§g-
+event_green/19§g
+event_green/20§g+
+event_green/21§g+
+event_green/22§g-
+event_green/23§g g
+event_green/24§g g
+event_green/25§g+ g+
+event_nm/01§g b
+event_nm/02§n
+event_nm/03§n+
+event_nm/04§n+
+event_nm/05§n+
+event_nm/06§n+ n+
+event_nm/07§n+
+event_nm/08§n+
+event_nm/09§n+
+event_nm/10§n+
+event_nm/11§n+ n+ n+
+event_nm/12§n+ n+
+event_nm/13§n+ n+ n+
+event_nm/14§n-
+event_nm/15§n-
+event_nm/16§n-
+event_nm/17§n+
+event_nm/18§n- n-
+event_nm/19§n-
+event_nm/20§n-
+event_nm/21§n-
+event_nm/22§n-
+event_nm/23§n-
+event_nm/24§n-
+event_nm/25§n- n- n-
+event_nm/26§n- n-
+event_nm/27§n- n-
+event_nm/28§n-
+event_nm/29§n- n- n-
+event_nm/30§r g
+event_nm/31§r g
+event_nm/32§r g
+event_nm/33§r g
+event_nm/34§r g
+event_nm/35§r b
+event_nm/36§r b
+event_nm/37§r b
+event_nm/38§r b
+event_nm/39§r b
+event_nm/40§r b
+event_nm/41§g b
+event_nm/42§g b
+event_nm/43§g b
+event_nm/44§g b
+event_nm/45§g b
+event_nm/46§g b
+event_nm/47§r g b
+event_nm/48§r g b
+event_nm/49§r g b
+event_red/01§r+ r+
+event_red/02§r
+event_red/03§r
+event_red/04§r r
+event_red/05§r r
+event_red/06§r
+event_red/07§r
+event_red/08§r r
+event_red/09§r r
+event_red/10§r r
+event_red/11§r r
+event_red/12§r r r
+event_red/13§r r
+event_red/14§r r r
+event_red/15§r r r
+event_red/16§r r
+event_red/17§r+
+event_red/18§r+ r+
+event_red/19§r+ r+
+event_red/20§r+
+event_red/21§r-
+event_red/22§r r
+event_red/23§r r
+event_red/24§r-
+event_red/25§r-
+event_red/26§r- r-
+event_red/27§r-
+event_red/28§r-
+event_red/29§r-
+event_red/30§r-
+event_red/31§r- r-
+event_red/32§r-
+event_red/33§r- r-
+event_red/34§r- r-
+event_red/35§r- r-
+sources/01§
+sources/02§r
+sources/03§r
+sources/04§r
+sources/05§r
+sources/06§r
+sources/07§
+sources/08§g
+sources/09§g
+sources/10§g
+sources/11§g
+sources/12§g
+sources/13§
+sources/14§b
+sources/15§b
+sources/16§b
+sources/17§b
+sources/18§b
+sources/19§
+sources/20§
+sources/21§
+sources/22§n
+sources/23§n n
+sources/24§n n
+sources/25§
+sources/26§g g
+sources/27§g b
+sources/28§b b
+sources/29§r g b
+sources/30§
+sources/31§
+sources/32§
+sources/33§r
+sources/34§
+sources/35§r b
+sources/36§g
+sources/37§r g
+sources/38§r
+sources/39§b
+sources/40§r
+sources/41§g
+sources/42§b
+structures/01§r
+structures/02§r+
+structures/03§r r
+structures/04§r r
+structures/05§g
+structures/06§g+
+structures/07§g+
+structures/08§g+
+structures/09§b b
+structures/10§b b
+structures/11§b-
+structures/12§b+
+structures/13§b-
+structures/14§b b
+structures/15§b b
+structures/16§b b
+structures/17§b b
+structures/18§
+structures/19§n
+structures/20§n
+structures/21§n+
+structures/22§n- n- n-
+structures/23§n n
+structures/24§n- n-
+structures/25§n
+structures/26§n+
+structures/27§r b
+structures/28§r b
+structures/29§g b
+structures/30§r b
+structures/31§r b
+unit_blue/01§b
+unit_blue/02§b
+unit_blue/03§b
+unit_blue/04§b
+unit_blue/05§b
+unit_blue/06§b
+unit_blue/07§b b
+unit_blue/08§n b
+unit_blue/09§b b
+unit_blue/10§b b
+unit_blue/11§b-
+unit_blue/12§b-
+unit_blue/13§b-
+unit_blue/14§b
+unit_blue/15§b
+unit_blue/16§b b
+unit_blue/17§b b
+unit_blue/18§b b
+unit_blue/19§b b
+unit_blue/20§b+
+unit_blue/21§b+
+unit_blue/22§b-
+unit_blue/23§b-
+unit_blue/24§b b
+unit_blue/25§b b
+unit_blue/26§b
+unit_blue/27§b
+unit_blue/28§b- b-
+unit_blue/29§b b
+unit_blue/30§b b b
+unit_green/01§g
+unit_green/02§g g
+unit_green/03§g
+unit_green/04§g g
+unit_green/05§g
+unit_green/06§g+
+unit_green/07§g-
+unit_green/08§g-
+unit_green/09§g+ g+
+unit_green/10§g+
+unit_green/11§g+ g+
+unit_green/12§g
+unit_green/13§g-
+unit_green/14§g g
+unit_green/15§g-
+unit_green/16§g g
+unit_green/17§g
+unit_green/18§g
+unit_green/19§g
+unit_green/20§g-
+unit_green/21§g- g-
+unit_green/22§g
+unit_green/23§g g
+unit_green/24§g g g
+unit_green/25§g-
+unit_green/26§g+ g+
+unit_green/27§g
+unit_green/28§g g
+unit_green/29§g g g
+unit_green/30§g- g-
+unit_green/31§g g
+unit_green/32§g g g
+unit_multi/01§r b
+unit_multi/02§r g
+unit_multi/03§r g
+unit_multi/04§g g r
+unit_multi/05§r g
+unit_multi/06§r g
+unit_multi/07§r g
+unit_multi/08§r g
+unit_multi/09§r g
+unit_multi/10§r- g
+unit_multi/11§r g
+unit_multi/12§r g
+unit_multi/13§r g
+unit_multi/14§r g
+unit_multi/15§r b
+unit_multi/16§r b
+unit_multi/17§g b
+unit_multi/18§r b
+unit_multi/19§r b
+unit_multi/20§g b
+unit_multi/21§g b
+unit_multi/22§g b
+unit_multi/23§g b
+unit_multi/24§g b
+unit_multi/25§g b
+unit_multi/26§g b
+unit_multi/27§g b
+unit_multi/28§r g b
+unit_multi/29§r g b
+unit_multi/30§r g b
+unit_multi/31§r g b
+unit_multi/32§r g b
+unit_neutral/01§n n
+unit_neutral/02§n
+unit_neutral/03§n n
+unit_neutral/04§n n
+unit_neutral/05§n-
+unit_neutral/06§n
+unit_neutral/07§n
+unit_neutral/08§n
+unit_neutral/09§n+
+unit_neutral/10§n-
+unit_neutral/11§n-
+unit_neutral/12§n
+unit_neutral/13§n n
+unit_neutral/14§n n
+unit_neutral/15§n+
+unit_neutral/16§n-
+unit_neutral/17§n-
+unit_neutral/18§n- n-
+unit_neutral/19§n
+unit_neutral/20§n n
+unit_neutral/21§n-
+unit_neutral/22§n- n-
+unit_neutral/23§n
+unit_neutral/24§n n
+unit_neutral/25§n- n+
+unit_neutral/26§n-
+unit_neutral/27§n- n+
+unit_neutral/28§n- n+
+unit_neutral/29§n+ n+
+unit_neutral/30§n n n
+unit_red/01§r
+unit_red/02§r r
+unit_red/03§r r
+unit_red/04§r
+unit_red/05§r
+unit_red/06§r
+unit_red/07§r
+unit_red/08§r
+unit_red/09§r
+unit_red/10§r
+unit_red/11§r
+unit_red/12§r
+unit_red/13§r-
+unit_red/14§r r r
+unit_red/15§r
+unit_red/16§r
+unit_red/17§r
+unit_red/18§r-
+unit_red/19§r
+unit_red/20§r
+unit_red/21§r+
+unit_red/22§r r
+unit_red/23§r r
+unit_red/24§r+
+unit_red/25§r
+unit_red/26§r
+unit_red/27§r r
+unit_red/28§r r
+unit_red/29§r r
+unit_red/30§r r r
+unit_red/31§r r r
+unit_red/32§r-
+unit_red/33§r- r-
+unit_red/34§r- r-
+unit_red/35§r+
+unit_red/36§r+
+unit_red/37§r r r
+unit_red/38§r+ r+

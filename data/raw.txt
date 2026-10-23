@@ -1,0 +1,448 @@
+aspects/01§Environmental Resonance§Aspect§3§§Friendly units in friendly tiles get +0|+1. / Friendly units assign battle damage equal to their defense.
+aspects/02§Shining Stone§Aspect - Supply§1§§When this enters the field you may discard a source card. If you do, Draw 2.
+aspects/03§Solidified Despair§Aspect§1§§Depopulate 2: Target Source Aspect is Dark this turn. / Depopulate 2, waste this: Draw 1.
+aspects/04§The Cuteness War§Aspect§2§§When a Quti or Goblong unit dies, this deals 1 damage to target tile.
+aspects/05§Reserve Batteries§Aspect - Supply§2§§This enters your domain with 2 energy packet counters on it.
+aspects/06§Tangible Hope§Aspect§1§§Gift 2 population: Target Source Aspect is Light this turn. / Gift 2 population, waste this: Draw 1.
+aspects/07§Monument to Progress§Aspect§2§§When you Main draw 1 card, add 1 energy.
+aspects/08§Wooden Box of Goods§Aspect - Unique§2§§7: Main search for a card and put it in your hand. (not sudden) / "Baile con ella antes de abrir."
+aspects/09§Battery System§Aspect - Supply§1§§3: put 1 energy packet counter on this.
+aspects/10§Uncharted Territory§Aspect§3§§At the start of your Preparation Phase Source Draw 1.
+aspects/11§Praise The Light§Aspect§2§§Activations of Light assets you control cost 1 less.
+aspects/12§Efficient Logistics§Aspect§4§§When you deploy a unit add 2 energy.
+aspects/13§Essential Virtue§Aspect§1§§All your Source Aspects are Light.
+aspects/14§Pax Romana§Aspect§5§§At the start of your Preparation Step, if no battles occurred during the previous Tactics Phase, Draw 1 and add 1 energy.
+aspects/15§Communal Transcendence§Aspect§2§§If you control 2 or more units of cost 1 or less, they gain Indestructible.
+aspects/16§The Punic Wars§Aspect§4§§When a unit or structure dies, players Draw 1 and lose 2 life.
+aspects/17§Dogov Marketspace§Aspect§3§§Discard a Source: Source Draw 1. / Discard a Card: Add 2 energy. / Sacrifice a Source: Populate 1. / Sacrifice a Structure: Return a Source from the waste. / Sacrifice a Unit: Draw 1. / (not sudden)
+aspects/18§Memorial Fountain§Aspect§2§§At the start of your Preparation Phase, populate 2 if you control only 1 base.
+aspects/19§Essential Corruption§Aspect§1§§All your Source Aspects are Dark.
+aspects/20§Eclipsed Light§Aspect§3§§Target player gets a (2 Light) Negative Entropy state.
+aspects/21§Embrace Darkness§Aspect§2§§Activations of Dark assets you control cost 1 less.
+aspects/22§Eclipsed Darkness§Aspect§3§§Target player gets a (2 Dark) Negative Entropy state.
+aspects/23§Preserve History§Aspect§3§§Other friendly aspects have Indestructible.
+aspects/24§Stifling Taxation§Aspect§5§§As this enters your domain choose a player. / Plays made by that player cost an additional 2 Entropy (costs are modified to require 2 additional Entropy of any color).
+aspects/25§Refined Schematics§Aspect§3§§When this enters your domain Main search for a structure card, show it, and put it in your hand. / Your structures deploy with +1 integrity.
+aspects/26§Kinetic Friction§Aspect§2§§When a friendly unit moves, it deals damage equal to the number of steps moved to target tile.
+aspects/27§Advanced Construction§Aspect§4§§Friendly Structures cost 2 less. / When a friendly Structure deploys Draw 1.
+aspects/28§Repurpose Remains§Aspect§2§§Sacrifice an asset: create a marker.
+aspects/29§Uproot Foundations§Aspect§3§§At the beginning of each Tactics phase you may pay 2, if you do move target structure one step and reduce its integrity by 2.
+aspects/30§Slit Apertures§Aspect§3§§Wall structures you control do not obstruct line-of-sight for friendly units.
+aspects/31§Crucible of Creation§Aspect§2§§Assets cost 1 less to play.
+aspects/32§Quti Research Lab§Aspect§4§§When a Quti unit dies, Draw 1.
+aspects/33§Inquisitorial Censorship§Aspect§2§§When this enters your domain name a card. Units with that name cannot move.
+aspects/34§Left-Over Fuel§Aspect§4§§You may pay energy costs of activations of any friendly structure by reducing integrity that structure.
+aspects/35§Long-Range Artillery§Aspect§4§§When this enters your domain, create 2 marker features. / 3: deal 2 damage to target marked tile. / 6: deal 2 damage to all marked tiles.
+aspects/36§Distort the Limits§Aspect§4§§Return, Trespass and Invade triggers occur whenever any of those conditions are met.
+aspects/37§Restraining Court§Aspect§2§§When this enters the field, look at the top 3 cards of a deck and return them in any order. / 2: target unit cannot move this turn.
+aspects/38§Idolize The Violent§Aspect§3§§Upkeep: depopulate 1. / When a friendly unit is wasted, deal damage to target tile equal to its strength.
+aspects/39§Undermining Plot§Aspect§3§§X, (Dark): create an Explosives X feature on target tile occupied by a friendly unit.
+aspects/40§Horde Chants§Aspect§1§§At the end of your Tactics Phase, if one or more friendly units Trespassed (moved from a friendly tile into an empty enemy tile) add 2 energy.
+aspects/41§Creed of Violence§Aspect§2§§Upkeep: depopulate 1. / Your units have Haste and get +1|+0.
+aspects/42§Volatile Storage§Aspect§2§§At the end of your turn empty your energy pool. / Deal X-3 damage to target friendly base and target enemy base where X is the amount of emptied energy.
+aspects/43§Victimize The Innocent§Aspect§3§§All units get 'Upkeep: depopulate 1'.
+aspects/44§Lightning Spectacle§Aspect§2§§Whenever an event deals damage to any number of assets or bases, this deals 1 damage to target tile.
+aspects/45§Punish the Vile§Aspect§4§§3: destroy target unit that damaged a friendly asset or base this turn.
+aspects/46§Shared Pipelines§Aspect§4§§Energy pools of all players are combined additively into a single shared pool (costs and addition effects operate as usual).
+aspects/47§Red Triumph§Aspect§4§§Red cards cost 1 less to play. / Whenever you play a Red card, deal 1 damage to target tile.
+aspects/48§Endless War§Aspect§4§§All units gain 'Frenzy (this deals base damage also during the enemy's turn)'.
+aspects/49§Rotting Settlements§Aspect§3§§At the start of your opponent's Preparation step, they depopulate 1.
+aspects/50§Green Triumph§Aspect§4§§Green cards cost 1 less to play. / Whenever you play a Green card add 1 energy.
+aspects/51§Oppressive Atmosphere§Aspect§4§§Each unit skips its tactical action unless its controller pays 1.
+aspects/52§Thrive in Harmony§Aspect§6§§Prevent all battle damage dealt to units in friendly tiles.
+aspects/53§Induced Corrosion§Aspect§4§§Your opponents produce -2 energy during their Production Phase.
+aspects/54§Planetary Bond§Aspect§5§§As this enters your domain choose a friendly base and an enemy base. / When either of the chosen bases is exterminated, exterminate the other.
+aspects/55§Environmental Preservation§Aspect§1§§Players cannot discard Source cards to add energy.
+aspects/56§Supremacy of Progress§Aspect§6§§At the beginning of your Preparation Phase, if there are 10 or more units and/or structures in friendly tiles you win game.
+aspects/57§Meandering Thoughts§Aspect§2§§When this enters your domain, Draw 1. / You may look at the top card of any of your decks at any time.
+aspects/58§Blue Triumph§Aspect§4§§Blue cards cost 1 less to play. / Whenever you play a Blue card, Draw 1 and discard 1.
+aspects/59§Vision Whisperer§Aspect§1§§Sacrifice this: target player Depletes 1 and you Draw 1. / 4, sacrifice this: target player Depletes 5 and you Draw 1.
+aspects/60§Spatial Manipulator§Aspect§3§§1: move target friendly unit to an adjacent tile. / 2: move target friendly structure to an adjacent tile. / 3: move target enemy unit to an adjacent tile. / 4: move target enemy structure to an adjacent tile.
+aspects/61§Invest in Losses§Aspect§2§§Whenever you would Draw, you may choose to skip the draw. If you do, target player Main and Source Deplete 1.
+aspects/62§Celestial Array§Aspect§7§§Negative Entropy (2 Blue). / 3: reveal the top card from one of your decks, you may play that card for 0 energy.
+aspects/63§Scientific Morbidity§Aspect§2§§When a friendly unit dies, draw 1.
+aspects/64§Path to Gloom§Aspect§3§§Whenever an enemy unit Invades (moves into an empty friendly back tile), its controller Depletes 2.
+aspects/65§Transparent Intentions§Aspect§2§§Your opponents play with their hands and Side decks revealed.
+aspects/66§Arcto Temple§Aspect§3§§When this enters your domain Main search for a card named Faithful Pilgrims and put it in your hand. / 3: target Pilgrim unit gets Indestructible this turn.
+aspects/67§Meditative State§Aspect§4§§At the end of your turn, if no damage was dealt this turn, Draw 1.
+event_blue/01§Epic Rescue§Event (Sudden)§1§§Target friendly unit gets Indestructible this turn. / At the start of the next turn repeal that unit.
+event_blue/02§Displacement§Event (Sudden)§0§§Move target friendly unit to an adjacent tile.
+event_blue/03§Dampen§Event (Sudden)§1§§Cancel target action.
+event_blue/04§Plausible Alternatives§Event (Sudden)§1§§Cancel target event unless its controller pays 3.
+event_blue/05§Repeal§Event (Sudden)§1§§Repeal (return to owner's hand) target unit.
+event_blue/06§Informed Decision§Event (Sudden)§1§§You may look at the top card of your decks. / Draw 1.
+event_blue/07§Waveform Swap§Event (Sudden)§1§§Exchange positions of two target friendly units.
+event_blue/08§Intelligent Approach§Event (Sudden)§2§§Choose one: / - Move target unit one step. / - Target unit cannot move this turn. / - Add 3 integrity to target structure.
+event_blue/09§Broken Ideation§Event (Sudden)§2§§Cancel target (non-Source) Aspect or Structure card.
+event_blue/10§Progressive Thinking§Event (Sudden)§2§§Look at the top 3 cards of your Main deck, put 1 card in your hand and the rest at the bottom of your deck in any order.
+event_blue/11§Tampered Ground§Event (Sudden)§2§§The next unit or structure that deploys on target tile this turn is dealt 5 damage.
+event_blue/12§Countermeasures§Event (Sudden)§2§§Cancel target event or action.
+event_blue/13§Recall Ideas§Event (Sudden)§2§§Put target event card from your waste on the top of its corresponding deck.
+event_blue/14§Unified Charge§Event§2§§Move all friendly units one step forward. / Units that moved this way get +1|+0 this turn.
+event_blue/15§Stasis§Event (Sudden)§2§§Skip the next tactical phase.
+event_blue/16§Transversal Winds§Event§3§§Perform 3 unit moves.
+event_blue/17§Disruptive Action§Event (Sudden)§3§§For each unit, you may displace it to an adjacent tile.
+event_blue/18§Consider Alternatives§Event§3§§Draw 2.
+event_blue/19§Affinity for Advancement§Event§3§§Search for a (Blue) card in your Main, Source or Side deck and put it into your hand.
+event_blue/20§Infantry Retreat§Event (Sudden)§3§§Repeal all units of cost 2 or less.
+event_blue/21§Collective Intelligence§Event (Sudden)§4§§Draw X where X is the number of friendly units.
+event_blue/22§Unfavorable Conditions§Event (Sudden)§4§§If this is played during Tactics, end the current phase.
+event_blue/23§Onwards and Upwards§Event (Sudden)§5§§Cancel target play. / Draw 1.
+event_blue/24§Forced Retreat§Event§5§§Repeal all units.
+event_blue/25§Counter-Intelligence§Event§7§§During the next Tactics, you take tactical actions of enemy units as if they were under your control (players get priority as usual).
+event_blue/26§Energy Leak§Event§1§§Empty target player's energy reserve.
+event_blue/27§Better Days§Event§2§§Target player Depletes X where X is the total of their Energy Pool.
+event_blue/28§Miscommunication§Event§1§§Target player Main Depletes 3. / You may play this from waste paying 3 energy. If you do, void this as it resolves.
+event_blue/29§Nameless Song§Event (Sudden)§1§§If target friendly unit would leave the field this turn void it instead. At the end of turn deploy it in your back line. / "Ahora que me acuesto a soñar, Le ruego al Señor mi alma cuidar; Si muero antes de despertar, Le ruego al Señor mi alma tomar."
+event_blue/30§Faith Research§Event (Sudden)§1§§Name a card type (Unit, Structure, Aspect or Event) and reveal the top card of your Main Deck. If that card has the named type Draw 2, otherwise Draw 1.
+event_blue/31§Deny Existence§Event (Sudden)§2§§Cancel target unit.
+event_blue/32§Distressing Memory§Event§1§§Target player Depletes 3. / Copy this spell for each card called Distressing Memory in your waste.
+event_blue/33§Tokophobia§Event (Sudden)§3§§Cancel target unit. / Its controller Depletes X where X is the cost of the cancelled unit.
+event_blue/34§Nihilism§Event§2§§Void all friendly assets. Target player depletes X where X is the total cards you voided.
+event_blue/35§Glimpse the Brink§Event§2§§Target player Main Depletes 7.
+event_blue/36§Blue Blast§Event (Sudden)§2§§Destroy target (Red) asset.
+event_blue/37§Unspeakable Vision§Event (Sudden)§3§§Additional cost: sacrifice a unit. / Look at the top X cards of your main deck and put 2 of them in your hand, X is the sum of the stats of the sacrificed unit. Shuffle.
+event_green/01§Guilt from Innocence§Event (Sudden)§1§§Target unit gets Retaliate (when this is dealt damage in battle, deal that much damage to the attacking unit).
+event_green/02§Economic Growth§Event§1§§Source Draw 2.
+event_green/03§Resorceful Maneuver§Event (Sudden)§1§§Swap positions of two target friendly units in friendly tiles. / Source Draw 1.
+event_green/04§Sudden Strength§Event (Sudden)§1§§Target unit gets +3|+3.
+event_green/05§Repurpose Resources§Event§1§§Flip target Source Aspect.
+event_green/06§Sustainable Growth§Event§1§§Source search for an Aspect of cost 1 or less and place it in your domain. / Populate 3.
+event_green/07§Dark Harvest§Event§1§§Additional cost: sacrifice a Source Aspect. / Search for 2 Source Aspects of cost 1 or less and place them in your domain (all Source cards are Aspects of cost 1 when placed face-down).
+event_green/08§Remorseless Purge§Event (Sudden)§1§§Additional cost: sacrifice an asset. / Destroy target asset.
+event_green/09§Vital Approach§Event (Sudden)§2§§Choose one: / - Target unit gets +2|+2 until the end of turn. / - Source Draw 2. / - Target unit gets Regeneration until the end of turn.
+event_green/10§Expansionism§Event§2§§Source search for 2 cards and put them in your hand.
+event_green/11§Recall Legacy§Event (Sudden)§2§§Put target aspect card from your waste on the top of its correspondig deck.
+event_green/12§Affinity for Growth§Event§3§§Search for a (Green) card in your Main, Source or Side deck and put it into your hand.
+event_green/13§Virtue Signaling§Event§2§§All friendly units get Absorb (when this is dealt damage, you populate that amount) this turn.
+event_green/14§Green Blast§Event§2§§Destroy target (Blue) asset.
+event_green/15§The Art of Death§Event (Sudden)§2§§Additional cost: sacrifice a unit. / Show cards from the top of your Main Deck until you show a unit of cost 1 plus the sacrified unit cost, deploy it in the same tile. Put the cards shown back in the deck and shuffle.
+event_green/16§Necroplague§Event§2§§Chaining (this affects cards in adjacent tiles to target tile in a sequence chosen by you). / Unit in tile gets -X|-X where X is the number of tiles affected in each step of the chain.
+event_green/17§Duality of Matter§Event§3§§Flip all Source Aspects.
+event_green/18§Induced Decay§Event (Sudden)§3§§Destroy target Aspect.
+event_green/19§Quti Violence§Event§4§§All Quti units get +2|+2 this turn.
+event_green/20§Care for the Meek§Event (Sudden)§4§§All units of strength 1 or less get Indestructible this turn. / Populate X where X is the number of Indestructible units.
+event_green/21§Repel the Invaders§Event (Sudden)§4§§Each enemy unit moves backwards as many steps as possible, deal damage to it equal to the number of steps moved.
+event_green/22§Widespread Decay§Event§4§§Destroy all non-Source Aspects.
+event_green/23§Collective Force§Event (Sudden)§5§§All friendly units get +X|+X, where X is the number of friendly units in the field.
+event_green/24§Might§Event§X§§Target unit gets +X|+X until the end of turn.
+event_green/25§Life Finds a Way§Event (Sudden)§X§§If a friendly base was exterminated this turn, create a new base in the same position with X population.
+event_nm/01§Quti Ritual§Event (Sudden)§1§§Target Quti unit gets Indestructible until the end of turn.
+event_nm/02§Pragmatic Approach§Event (Sudden)§2§§Choose one: / - Draw 1. / - Discard a source, Draw 2. / - Add 3 energy.
+event_nm/03§Virtuous Approach§Event (Sudden)§2§§Choose one: / - Populate 4. / - Remove features from two target tiles. / - Target unit gains Indestructible this turn.
+event_nm/04§Warriors to Poets§Event (Sudden)§1§§Void target unit, its controller Draws 1.
+event_nm/05§Preemptive Shielding§Event (Sudden)§1§§Target tile cannot be targeted this turn (anything targeting it on the stack is cancelled).
+event_nm/06§Tranquil Zone§Event (Sudden)§2§§All assets occupying target tile gain Indestructible this turn.
+event_nm/07§Field Barrier§Event (Sudden)§3§§Friendly tiles cannot be targeted this turn (anything targeting it on the stack is cancelled).
+event_nm/08§Light Blast§Event (Sudden)§2§§Void target (Dark) asset.
+event_nm/09§Extinguish Concept§Event§2§§Void target non-Source card in a waste. Search in that card's owner's waste, hand, Main deck and Side deck for all the cards with the same name and void them.
+event_nm/10§Affirm Conviction§Event (Sudden)§3§§All friendly units get Indestructible this turn.
+event_nm/11§Affinity for Hope§Event§3§§Search for a (Light) card in your Main, Source or Side deck and put it into your hand.
+event_nm/12§Bring Back the Past§Event (Sudden)§5§§Return up to one card of each type (unit, structure, aspect, event) from your waste to your hand. / Void this.
+event_nm/13§Begin Anew§Event§9§§Create a new base with population 9.
+event_nm/14§Dark Blast§Event (Sudden)§1§§Destroy target (Light) asset.
+event_nm/15§Intrusive Thoughts§Event§1§§Look at target player's hand. Choose and discard an event card from it.
+event_nm/16§Death Rites§Event§1§§Each player sacrifices a unit.
+event_nm/17§Return to the Living§Event§4§§Deploy target unit from your waste in your back line.
+event_nm/18§Painful Visions§Event§2§§Additional cost: depopulate 2. / Draw 2.
+event_nm/19§Foodchain Collapse§Event§3§§Destroy all units of cost 3 or more.
+event_nm/20§Territorial Control§Event§2§§Destroy target unit in your back line.
+event_nm/21§Corrupt Approach§Event (Sudden)§2§§Choose one: / - Sacrifice a unit, Draw 2. / - Target player discards a card. / - Each player sacrifices a unit or structure.
+event_nm/22§Induce Despair§Event§2§§Destroy target unit of cost 3 or less.
+event_nm/23§Coverted Sabotage§Event§2§§Target player shows their hand. You choose a non-source card and discard it.
+event_nm/24§Unfit for Living§Event (Sudden)§2§§Destroy target unit that was deployed this turn.
+event_nm/25§Affinity for Despair§Event§3§§Search for a (Dark) card in your Main, Source or Side deck and put it into your hand.
+event_nm/26§Dead Zone§Event (Sudden)§4§§Destroy all assets occupying target tile.
+event_nm/27§Extintion Wave§Event§4§§Destroy all units.
+event_nm/28§Purge Diversity§Event§7§§Destroy all non-neutral units.
+event_nm/29§Beget Apocalypse§Event§9§§Exterminate target base.
+event_nm/30§Battlefield Engagement§Event (Sudden)§1§§Target tile battles.
+event_nm/31§Structural Collapse§Event§2§§Destroy target structure.
+event_nm/32§Exalted Charge§Event§3§§Target unit moves one step and gains Aggressive (when this engages an enemy unit this tile battles) this turn.
+event_nm/33§Forced Tactics§Event (Sudden)§2§§Target unit gets +2|+1 and Fast Attack this turn.
+event_nm/34§Earthquake§Event§4§§Deal 5 damage to all structures.
+event_nm/35§Forceful Displacement§Event (Sudden)§2§§Target unit moves as many steps forward as possible (until engaging an enemy asset or reaching the back tile). / Deal damage to it equal to the steps moved this way.
+event_nm/36§Teleport§Event§2§§Displace target unit to an empty tile.
+event_nm/37§Defensive Vapours§Event§3§§Deal 3 damage to all units in friendly tiles.
+event_nm/38§Identify Targets§Event§2§§Create a marker on each tile occupied by an enemy unit.
+event_nm/39§Charge Up§Event§1§§Put 1 energy packet counter on each friendly Supply aspect and structure.
+event_nm/40§Swift Tactics§Event§1§§Target unit gets +1|+1 this turn. / Move it to an adjacent tile.
+event_nm/41§Hidden Trap§Event (Sudden)§2§§Target unit permanently gains 'Anchored (cannot move by any effects)'.
+event_nm/42§Deconstruct§Event§2§§Destroy target non-source aspect.
+event_nm/43§Entangling Roots§Event (Sudden)§2§§Units in target line cannot move this turn.
+event_nm/44§Sustainable Disassembly§Event (Sudden)§3§§Destroy target aspect. Its controller Source Draws 1.
+event_nm/45§Imperial Decree§Event§4§§Move all enemy units one step back if possible, units which cannot be moved are repealed.
+event_nm/46§Quti Call§Event§4§§Search for two Quti cards, reveal them and put them in your hand.
+event_nm/47§Sudden Mutation§Event (Sudden)§2§§Target unit gets Indestructible, Fast, Haste, Absorb, Impact 3 and Overrun 3 this turn.
+event_nm/48§Unnatural Screech§Event (Sudden)§2§§Non-Quimera units move backwards as many steps as possible. / Quimera units get +2|+2 this turn.
+event_nm/49§Civilizational Collapse§Event§5§§Destroy all non-neutral units, structures and aspects.
+event_red/01§Charming Permutation§Event§3§§Exchange control of two target aspects.
+event_red/02§Static Shock§Event (Sudden)§1§§Deal 2 damage to target tile or base.
+event_red/03§Furious Approach§Event (Sudden)§1§§Choose one: / - Target unit gets +2|+0 until the end of turn. / - Deal 1 damage to target tile. / - Target unit gets Conquest until the end of turn.
+event_red/04§Explosive Sacrifice§Event (Sudden)§1§§Additional cost: sacrifice X units. / Deal X damage to target tile or base.
+event_red/05§Surgical Strike§Event§1§§Create 1 marker feature. / Deal 1 damage to each tile with a marker.
+event_red/06§Pointed Discharge§Event (Sudden)§2§§Deal 3 damage to target tile or base.
+event_red/07§Battle Scream§Event (Sudden)§2§§All friendly units get +1|+0 until the end of turn.
+event_red/08§Recall Heroes§Event (Sudden)§2§§Put target unit card from your waste on the top of its correspondig deck.
+event_red/09§Field Fires§Event§2§§Deal 2 damage to forward tiles.
+event_red/10§Fires of Desperation§Event§2§§Deal 2 damage to friendly tiles.
+event_red/11§Focused Bombing§Event§2§§Deal 5 damage to target marked tile.
+event_red/12§Spread Animosity§Event (Sudden)§2§§All units gain 'Frenzy (this deals base damage also during the enemy's turn)' this turn.
+event_red/13§Explosive Repurpose§Event (Sudden)§3§§Aditional cost: sacrifice a structure. / Deal X damage to target tile where X is the integrity of the sacrificed structure.
+event_red/14§War Never Changes§Event§3§§Additional cost: sacrifice one of your bases, you don't get the Salvage effect from this. / Deal 7 damage to any target.
+event_red/15§Affinity for Rage§Event§3§§Search for a (Red) card in your Main, Source or Side deck and put it into your hand.
+event_red/16§Collective Violence§Event§4§§Deal X damage to all units where X is the number of units.
+event_red/17§Purifying Burst§Event (Sudden)§1§§Deal 2 damage to target tile or base. / This cannot be cancelled. If a unit or structure damaged by this would be wasted this turn, void it instead.
+event_red/18§Fiery Cataclysm§Event§5§§Deal 4 damage to all tiles. / If a unit or structure damaged by this would be wasted this turn, void it instead.
+event_red/19§Penitence of Masses§Event§3§§Each unit deals damage to itself equal to its strength.
+event_red/20§Cathartic Ritual§Event (Sudden)§1§§Additional cost: gift 2 population. / Add 4 energy.
+event_red/21§Somber Lightning§Event (Sudden)§1§§Deal 3 damage to target unit.
+event_red/22§Fiery Trace§Event§X§§Deal X damage to target forward line.
+event_red/23§Calculated Explosion§Event§X§§Deal X damage to target tile or base.
+event_red/24§Costly Assassination§Event (Sudden)§2§§Additional cost: sacrifice a unit. / Destroy target unit.
+event_red/25§Reactor Detonation§Event§2§§Destroy target asset that produces energy.
+event_red/26§Noxious Wave§Event§2§§Deal 3 damage to all units. / Depopulate 1 for each unit that was wasted from this efect.
+event_red/27§Incite Violence§Event (Sudden)§1§§Target unit must take a tactical action that brings it into battle this turn if able.
+event_red/28§Hopeless Thought§Event§1§§Additional cost: depopulate 2. / Target player shows their hand. You choose a non-source card and discard it.
+event_red/29§Red Blast§Event (Sudden)§2§§Destroy target (Green) asset.
+event_red/30§Mutual Hostility§Event§X§§Deal X damage to target friendly base and target enemy base.
+event_red/31§Visions of Despair§Event§X§§Additional cost: depopulate X. / Target player discards X-2 cards.
+event_red/32§Rage Outburst§Event (Sudden)§3§§Target unit deals damage equal to its strength to all units in line of sight from it.
+event_red/33§Societal Panic§Event§4§§Target opponent may depopulate 3 for each card in their hand. They discard each card they didn't pay for.
+event_red/34§Pay For In Blood§Event (Sudden)§2§§You choose one, then your opponent chooses one: / - Deal 4 damage to target base. / - Target player sacrifices a unit. / - Target player discards 1.
+event_red/35§High-Stakes Game§Event§3§§Your opponent looks at the top 4 cards of your main deck. They separate them into two piles, one face up and the other face down. Choose one pile to go into your hand and waste the other.
+sources/01§Red Entropy§Source Aspect§1§§(Red)
+sources/02§Red Growth§Source Aspect§1§§+1 (Red)
+sources/03§Red-Blue Growth§Source Aspect§1§§+1 (Blue)
+sources/04§Red-Green Growth§Source Aspect§1§§+1 (Green)
+sources/05§Red Corruption§Source Aspect - Attachment§1§§+1 (Dark)
+sources/06§Red Virtue§Source Aspect - Attachment§1§§+1 (Light)
+sources/07§Green Entropy§Source Aspect§1§§(Green)
+sources/08§Green Growth§Source Aspect§1§§+1 (Green)
+sources/09§Green-Red Growth§Source Aspect§1§§+1 (Red)
+sources/10§Green-Blue Growth§Source Aspect§1§§+1 (Blue)
+sources/11§Green Corruption§Source Aspect - Attachment§1§§+1 (Dark)
+sources/12§Green Virtue§Source Aspect - Attachment§1§§+1 (Light)
+sources/13§Blue Entropy§Source Aspect§1§§(Blue)
+sources/14§Blue Growth§Source Aspect§1§§+1 (Blue)
+sources/15§Blue-Red Growth§Source Aspect§1§§+1 (Red)
+sources/16§Blue-Green Growth§Source Aspect§1§§+1 (Green)
+sources/17§Blue Corruption§Source Aspect - Attachment§1§§+1 (Dark)
+sources/18§Blue Virtue§Source Aspect - Attachment§1§§+1 (Light)
+sources/19§Dark Entropy§Source Aspect - Attachment§0§§(Dark)
+sources/20§Light Entropy§Source Aspect - Attachment§0§§(Light)
+sources/21§Neutral Entropy§Source Aspect§1§§(Neutral)
+sources/22§Neutral Growth§Source Aspect§1§§+1 (Neutral)
+sources/23§Neutral Virtue§Source Aspect - Attachment§1§§+1 (Light)
+sources/24§Neutral Corruption§Source Aspect - Attachment§1§§+1 (Dark)
+sources/25§Wellspring§Source Aspect§4§§+2
+sources/26§Green Fount§Source Aspect§2§§+2
+sources/27§Networking§Source Aspect§3§§+2 (Green) (Blue)
+sources/28§Blue Enthalpy§Source Aspect§2§§(Blue) (Blue) (Blue)
+sources/29§Complexity§Source Aspect§2§§(Red) (Green) (Blue)
+sources/30§Blue Gush§Source Event§0§§Add (Blue) to your entropy state until your next production phase.
+sources/31§Green Gush§Source Event§0§§Add (Green) to your entropy state until your next production phase.
+sources/32§Red Gush§Source Event§0§§Add (Red) to your entropy state until your next production phase.
+sources/33§Red Burst§Source Event§1§§Add 3 energy.
+sources/34§Surge§Source Event§2§§Add 4 energy.
+sources/35§Sophistication§Source Event§1§§Add (Blue) (Blue) (Red) (Red) to your entropy state until your next production phase.
+sources/36§Green Darkening§Source Event§1§§All your aspects with a (Green) become Dark until your next production phase.
+sources/37§Overflow§Source Event§3§§Add 7 energy.
+sources/38§Red Darkening§Source Event§1§§All your aspects with a (Red) become Dark until your next production phase.
+sources/39§Blue Darkening§Source Event§1§§All your aspects with a (Blue) become Dark until your next production phase.
+sources/40§Red Lightening§Source Event§1§§All your aspects with a (Red) become Light until your next production phase.
+sources/41§Green Lightening§Source Event§1§§All your aspects with a (Green) become Light until your next production phase.
+sources/42§Blue Lightening§Source Event§1§§All your aspects with a (Blue) become Light until your next production phase.
+structures/01§Artillery Positions§Structure§1§I5§2: deal 1 damage to target marked tile.
+structures/02§Tower of Temptations§Structure§3§I5§Taunt (movement actions of adjacent units must bring them into battle with this).
+structures/03§Goblong Nursery§Structure§4§I2§At the start of your Preparation Phase, you may reveal the top card of your Main Deck. If it is a Goblong unit, put it in your hand.
+structures/04§Battle Markings§Structure§2§I2§Forward Deployment. / Friendly units gain Overrun 2.
+structures/05§Overgrown Wall§Structure - Wall§1§I3§When this is destroyed, Source Draw 1.
+structures/06§Natural Colonnade§Structure§3§I6§Absorb (when this is dealt damage, populate that amount).
+structures/07§Forest's Veil§Structure§3§I7§This tile cannot get a (new) feature.
+structures/08§Thorny Vegetation§Structure§2§I4§Retaliate (when this is dealt damage in battle, deal that much damage to the attacking unit).
+structures/09§Construction Pod§Structure§2§I1§When this deploys, friendly structures gain 2 integrity.
+structures/10§Migration Beacon§Structure§2§I4§At the end of your turn, if 3 or more friendly units moved this turn Draw 1.
+structures/11§Gate of Hatred§Structure§1§I5§When this receives X damage, the source's controller Depletes X.
+structures/12§Repudiation Notice§Structure§2§I2§Forward Deployment. / Name a non-Source card. That card cannot be played.
+structures/13§Misinformation Tower§Structure§1§I3§2: target player Depletes 1 (puts a card from either deck in the waste).
+structures/14§Research Facility§Structure§3§I6§When this deploys, Draw 2 and discard 1.
+structures/15§Static Grid§Structure§3§I3§Units with strength 4 or more cannot move.
+structures/16§Tactician's Outpost§Structure§3§I4§Friendly units have Haste.
+structures/17§Maintenance Hub§Structure§4§I7§3: add 1 integrity to target structure.
+structures/18§Pile of Rubble§Structure - Wall§1§I4§
+structures/19§Frontline Refuge§Structure - Wall§2§I3§Adjacent unit has Stealth (cannot be targeted).
+structures/20§Steel Wall§Structure - Wall§1§I6§
+structures/21§Mausoleum to the Fallen§Structure§2§I3§When a friendly unit is wasted, populate an amount equal to its defense.
+structures/22§Black Hole§Structure§5§I1§Skip the Tactics Phase of each turn. / At the end of each turn, all units and structures move in the shortest path towards this, including diagonally. When an asset engages with this, void it and increase integrity equal to its cost. / If this has 12 or more integrity, you lose the game.
+structures/23§Illumination Tower§Structure§3§I4§Your events cost 1 less to play (up to a minimum of 1).
+structures/24§Endtimes Mausoleum§Structure§4§I3§At the start of your turn, if there are 4 adjacent units called Endtimes Acolyte, you win the game.
+structures/25§Supply Node§Structure - Supply§2§I3§2: put an energy packet on this.
+structures/26§Toll Passage§Structure§2§I5§Plays cost an additional (Neutral) Entropy (costs are modified to require an additional Entropy of any color).
+structures/27§Doom Engine§Structure§4§I7§2: this gets 1 integrity. / Remove 13 integrity from this: extterminate target base.
+structures/28§Firing Outpost§Structure§2§I4§When this deploys, create a marker feature. / 3: deal 2 damage to target marked tile.
+structures/29§Quti Den§Structure§4§I2§All Quti units get +1|+1.
+structures/30§Artillery Outpost§Structure§3§I6§When this deploys, create 2 marker features. / 4: deal 2 damage to all marked tiles.
+structures/31§Aiming Positions§Structure§3§I7§At the start of your Preparation Phase you may pay 3, if you do create a marker.
+unit_blue/01§Globular Dampers§Unit§1§0|4§
+unit_blue/02§Research Party§Unit§1§1|1§When this Returns (moves into an empty friendly back tile) you may pay 1: Draw 1 and discard 1.
+unit_blue/03§Energized Rangers§Unit§1§1|2§2: displace this to an adjacent tile.
+unit_blue/04§Selidhar Rangers§Unit§1§1|1§Fast (this moves up to two steps in the same direction as a tactical action).
+unit_blue/05§Eager Envoys§Unit§1§2|1§When this deploys, Draw 1 then discard 1.
+unit_blue/06§Spy Conclave§Unit§1§1|1§When this deploys look at your opponent's hand.
+unit_blue/07§Field Researchers§Unit§1§1|1§When this deploys, Draw 1.
+unit_blue/08§Repair Engineers§Unit§1§1|2§When this deploys, add 2 integrity to a structure occupying this tile.
+unit_blue/09§Workforce Brokers§Unit§1§1|1§When this deploys, you may repeal a friendly unit. / 1: repeal target friendly unit (not Sudden).
+unit_blue/10§Selidhar Chivalry§Unit§1§2|1§Fast (this moves two steps in its move action).
+unit_blue/11§Sinister Monks§Unit§1§1|2§At the end of your turn, if this didn't perform a tactical action, target player Main Depletes 1 if this is in a friendly tile or main Depletes 2 if it is in an enemy tile.
+unit_blue/12§Pernicious Saboteur§Unit§1§1|2§Whenever a source aspect enters your domain, target player Depletes 2.
+unit_blue/13§Nightmare Pests§Unit§1§1|2§When this Invades (moves into an empty enemy back tile) you may sacrifice it. If you do, target player Depletes 5.
+unit_blue/14§Tactical Prospectors§Unit§2§0|2§When this moves, add 1 energy.
+unit_blue/15§Debating Legalists§Unit§2§1|1§Sacrifice this: repeal target unit.
+unit_blue/16§Selidhar Knights§Unit§2§3|2§Fast (this moves up to two steps in the same direction as a tactical action). / Swift (this can move diagonally as a tactical action).
+unit_blue/17§Selidhar Taskforce§Unit§2§1|3§Fast (this moves up to two steps in the same direction as a tactical action). / When this moves it gets +1|+0 this turn.
+unit_blue/18§Silent Infiltrators§Unit§2§2|2§Stealth (this cannot be targeted).
+unit_blue/19§Zarion, protector§Unit - Unique§2§3|1§Permanence (this cannot be destroyed, sacrifed or voided). / Friendly units get +2|2. / At the end of turn put this at the bottom of its owner's deck.
+unit_blue/20§Faithful Pilgrims§Unit - Pilgrim§2§0|2§At the end of Tactics, if this Trespassed (moved into an empty enemy tile from a friendly tile), Main search for a card named Faithful Pilgrims and deploy it on your back line. / There can be any number of copies of this in your Main Deck.
+unit_blue/21§Crowd Pleasers§Unit§2§2|2§When a friendly unit deploys, you may Main search for a card named Crowd Pleasers and put it into your hand.
+unit_blue/22§Augur of Decline§Unit§2§1|1§Base extermination don't cause Salvage (draw or take one from the Side deck).
+unit_blue/23§Edgelords§Unit§2§4|2§This unit can only deploy and occupy edge tiles.
+unit_blue/24§Fast-Response Regiment§Unit (Sudden)§3§2|2§All your unit cards have Sudden. / Fast (this moves up to two steps in the same direction as a tactical action).
+unit_blue/25§Garland 'cto Brynos§Unit - Unique§3§2|3§Fast (this moves up to two steps in the same direction as a tactical action). / When this unit moves, friendly units with Fast get +1|+1 this turn.
+unit_blue/26§Field Probes§Unit§4§2|4§When this deploys Draw 1 and discard 1.
+unit_blue/27§Selidhar War Elephants§Unit§4§1|3§Impact 3 (when this moves into an occupied tile, it deals 3 damage to assets there).
+unit_blue/28§Lord of Tears§Unit - Unique§4§2|3§Whenever an asset leaves the field, target player Main Depletes 1.
+unit_blue/29§Causality Entity§Unit§6§4|4§Stealth, Negative entropy: (2 Blue). / Whenever you play an event: displace target unit or repeal target non-source aspect.
+unit_blue/30§The Traveller Myth§Unit§6§3|6§When this Returns, Trespasses or Invades, repeal target unit.
+unit_green/01§Quti Clique§Unit - Quti§1§1|2§
+unit_green/02§Syphon Worm§Unit§0§X|X§X is the number of source cards in your hand.
+unit_green/03§Infantry Musicians§Unit§1§1|1§When this Returns (moves into an empty friendly back tile) you may pay 1: target friendly unit gets +1|+1.
+unit_green/04§Inspiring Leader§Unit§1§1|2§Adjacent friendly units get +1|+1.
+unit_green/05§Life Force Avatar§Unit§1§X|X§X is your total (Green) entropy.
+unit_green/06§Immaculate Warriors§Unit§1§2|2§When this Invades (enters an empty enemy back tile) you may sacrifice it. If you do, populate 4.
+unit_green/07§Rot Walkers§Unit - Spawn§1§1|1§When this dies, target player discards 1.
+unit_green/08§Insistent Zombies§Unit - Spawn§1§1|1§If a non-spawn unit died this turn you may play this from the waste.
+unit_green/09§Haya-Tabiye Enforcers§Unit§2§1|4§Retaliate (when this is dealt damage in battle, deal that much damage to the attacking unit).
+unit_green/10§Territorial Pack§Unit§2§3|4§Hold Back (this cannot move or deploy into enemy tiles).
+unit_green/11§Haya-Tabiye Council§Unit§2§2|2§Friendly units in friendly tiles get +0|+2.
+unit_green/12§Cornered Beasts§Unit§2§2|2§If you lost a base, this gets +2|+2.
+unit_green/13§Fungus Monstrosity§Unit - Fungus§2§2|3§Regeneration (non-lethal damage dealt to this is prevented).
+unit_green/14§Dangerous Quti§Unit - Quti§2§1|2§Lethal (any damage dealt by this to a unit is treated as lethal).
+unit_green/15§Offal Harvesters§Unit§2§1|1§If this is in an enemy tile in your production step, you may pay 2 lives. If you do, add 3 energy.
+unit_green/16§Travelling Pioneers§Unit§2§1|2§Sacrifice this: search for a Source card and put it into your hand.
+unit_green/17§Pack Hunters§Unit§2§2|3§
+unit_green/18§Supply Troops§Unit§2§1|2§When this deploys, Source Draw 1.
+unit_green/19§Quti Ball§Unit - Quti§2§X|2§X is the number of Qutis in the field.
+unit_green/20§Decayed God Zealots§Unit§2§2|1§When this Invades (enters an empty enemy back tile) you may sacrifice it, if you do destroy target aspect.
+unit_green/21§Ugat, Heart of Decay§Unit - Unique§2§2|2§At the start of each player's Preparation Phase, that player sacrifices a non-source asset.
+unit_green/22§Quti Swarm§Unit - Quti§3§3|3§
+unit_green/23§Jungling Pack§Unit§3§3|2§When a unit with lesser power than this deploys, all friendly units get +1|+0 this turn.
+unit_green/24§Gentle Ursai§Unit§3§5|5§
+unit_green/25§Wandering Mass§Unit§3§1|3§Remains 7 (when this dies, transform it into a structure with integrity 7).
+unit_green/26§Haya-Tabiye Defenders§Unit§3§3|4§Absorb (when this is dealt damage, populate that amount).
+unit_green/27§Big Quti§Unit - Quti§4§4|4§
+unit_green/28§Regiment of Renown§Unit§4§3|3§Adjacent friendly units get +1|+1.
+unit_green/29§The Harvester Myth§Unit§4§4|5§When this deploys, Source search for an aspect card and deploy it.
+unit_green/30§Gonoth, Hunger Vortex§Unit - Unique§4§4|4§Sacrifice a frienly unit, 1: target base depopulates 1. / Sacrifice a friendly aspect, 1: Draw 1 and depopulate 2.
+unit_green/31§Enraged Wildlife§Unit§6§6|6§Overrun 4 (when this destroys an enemy unit or structure in battle it deals 4 damage to the defending structure or base.
+unit_green/32§Subtle Colossus§Unit§7§7|7§Stealth (this cannot be targeted).
+unit_multi/01§Master Engineers§Unit§1§1|2§When this deploys, create 2 marker features.
+unit_multi/02§Sneaking Thieves§Unit§1§1|1§On an enemy tile: +1 in Production Phase.
+unit_multi/03§Daring Raiders§Unit§1§2|2§When this Trespasses (moves into an empty enemy tile from a friendly tile) it gains Taunt (movement actions of adjacent units must bring them into battle with this) this turn.
+unit_multi/04§Enhanced Paladin§Unit§1§3|2§Fast Attack (this deals damage in the Fast Damage substep during battle).
+unit_multi/05§Elite Duelists§Unit§2§3|1§Fast Attack (this deals damage in the Fast Damage substep during battle).
+unit_multi/06§Power Thirsters§Unit§2§2|1§On an enemy tile: +1 in production phase.
+unit_multi/07§Rithlo Infantry§Unit§2§3|3§Conquest (if this kills a unit in battle, move this one step).
+unit_multi/08§Energized Infantry§Unit§2§3|2§Aggressive (when this engages an enemy unit this tile battles).
+unit_multi/09§3rd Division Commander§Unit§3§4|3§Aggressive (when this engages an enemy unit this tile battles). / Conquest (when this destroys an enemy asset in battle you may move it one step).
+unit_multi/10§Shambling Spawn§Unit§3§4|5§Regeneration (non-lethal damage dealt to this is prevented). / Remains 3 (when this dies, transform it into a structure with integrity 3).
+unit_multi/11§Consuming Presence§Unit§4§8|8§When this deploys, void your source deck.
+unit_multi/12§Raptor Pack§Unit§4§4|4§Swift (this can move diagonally as a tactical action). / Aggressive (when this engages an enemy unit this tile battles).
+unit_multi/13§Agabhat Lurkers§Unit - Unique§4§3|4§On friendly tile: Stealth. / On enemy tile: Aggressive.
+unit_multi/14§Agabhat Legion§Unit - Unique§5§3|4§Haste. Aggressive. Overrun 3.
+unit_multi/15§Visionary Architects§Unit§1§0|2§Friendly Structures cost 1 less.
+unit_multi/16§Unstable Invention§Unit§4§5|3§Fast (this moves up to two steps in the same direction as a tactical action). / When this dies it deals 2 damage to each adjacent tile.
+unit_multi/17§Quti Baby§Unit - Quti§1§0|1§Quti units have Haste.
+unit_multi/18§Markalladon§Unit§3§X|X§Conquest (when this destroys an enemy asset in battle you may move it one step). / X is the number of marked tiles.
+unit_multi/19§Armageddon Delivered§Unit§4§0|1§Back deployment. / When this is wasted deal 12 damage to this tile. / When this engages a unit or structure, sacrifice it. / When this Invades, sacrifice it.
+unit_multi/20§Grounds Guards§Unit§2§1|3§When this deploys, displace target unit to an adjacent tile.
+unit_multi/21§Quti Petty King§Unit - Quti§4§1|1§Quti units in this line get +1|+1 for each Quti unit in this line.
+unit_multi/22§Moving Fortress§Unit§5§2|7§Barrier 4 (events and actions targeting this cost an additional 4 energy to play). / Impact 4 (when this moves into an occupied tile, it deals 4 damage to assets there).
+unit_multi/23§Inquisitor Envoys§Unit§4§4|5§When this moves a second time in a turn, repeal target unit.
+unit_multi/24§Quti Captain§Unit - Quti§3§1|1§Friendly Quti units get +1|+1.
+unit_multi/25§Siege Contraption§Unit§3§1|5§When this Invades (enters an empty enemy back tile) deal 5 damage to a defending base. / This can only move forwards or backwards.
+unit_multi/26§Shielded Infantry§Unit§3§3|3§Barrier 3 (events and actions targeting this cost an additional 3 energy to play).
+unit_multi/27§Sanctuary Guards§Unit§3§3|3§Fast (this moves up to two steps in the same direction as a tactical action).
+unit_multi/28§Spiked Lacerator§Unit - Quimera§2§3|3§Whenever this moves, it deals damage equal to its strength to target tile.
+unit_multi/29§Demanding Regiment§Unit§2§4|4§
+unit_multi/30§Degenerate Phenotype§Unit - Quimera§1§3|2§When this is wasted, return it to its owners hand.
+unit_multi/31§Unilikely Phenotypes§Unit - Quimera§2§4|3§Your opponent's units gain Forward Deployment.
+unit_multi/32§Runaway Experiment§Unit - Quimera§3§4|5§Quimeras get Fast, Haste and Regeneration.
+unit_neutral/01§Veteran Legionnaires§Unit§3§3|3§When this deploys Source Draw 1.
+unit_neutral/02§Peons§Unit§1§1|1§
+unit_neutral/03§Helping Automata§Unit§1§1|2§When this deploys you may discard a card. If you do, Draw 1.
+unit_neutral/04§Pandering Leader§Unit§1§3|3§In your Preparation step, the player with the highest Entropy state gains control of this (flip orientation in the grid to represent control). / "Más sabe el perro sanxe por perro que por sanxe."
+unit_neutral/05§Endtimes Acolyte§Unit§1§1|1§There can be any number of copies of this in your Main Deck.
+unit_neutral/06§Combat Regulars§Unit§2§2|2§
+unit_neutral/07§Resourceful Automata§Unit§2§1|2§When this dies, Draw 1.
+unit_neutral/08§Sustainable Troops§Unit§2§2|2§When this deploys you may discard a card. If you do, Draw 1.
+unit_neutral/09§Prophets of Salvation§Unit§2§1|1§Sacrifice this: you cannot be targeted this turn.
+unit_neutral/10§Prophets of Calamity§Unit§2§1|1§Sacrifice this: target player discards 1 card.
+unit_neutral/11§Shoder, Shadow Walker§Unit - Unique§2§2|2§When this deals combat damage to a base, look at the top card of your Main Deck. You may play it ignoring its entropy requirement this turn.
+unit_neutral/12§Battle Constructs§Unit§3§3|3§
+unit_neutral/13§Hannibal the Conqueror§Unit - Unique§3§4|3§Friendly units get Conquest (when this destroys an enemy asset in battle you may move it one step).
+unit_neutral/14§Efficient Infantry§Unit§3§3|3§When this deploys, add 2 energy.
+unit_neutral/15§Lord of Truths§Unit - Unique§3§1|3§When this Returns (moves into an empty friendly back tile) you may pay 2: show your hand and choose a card, Main search for a card of the same name and put it into your hand.
+unit_neutral/16§Rusting Automaton§Unit§3§3|3§Remains 3 (when this dies, transform it into a structure with integrity 3).
+unit_neutral/17§Lord of Lies§Unit - Unique§3§2|1§When this Returns (moves into an empty friendly back tile) you may pay 2: name a card, target opponent shows their hand and discards all cards of the chosen name.
+unit_neutral/18§Idea Erradicator§Unit§3§2|2§4, sacrifice this: destroy target non-neutral unit.
+unit_neutral/19§Armored Force§Unit§4§4|4§
+unit_neutral/20§Scipio, Master Strategist§Unit - Unique§4§3|5§Friendly units get Swift (this can move diagonally as a tactical action).
+unit_neutral/21§Chilling Predator§Unit§4§3|3§Terror (units in line-of-sight from this cannot move).
+unit_neutral/22§Dusk Entity§Unit§4§2|2§When this deploys destroy target non-neutral unit.
+unit_neutral/23§Imposing Golem§Unit§5§5|5§
+unit_neutral/24§Mounted Elephants§Unit§5§1|6§Impact 5 (when this moves into an occupied tile, it deals 5 damage to assets there).
+unit_neutral/25§The Eye of Duplicity§Unit - Unique§6§0|6§All units get 'Unique'. / If an opponent would draw a card, they show it instead. Waste that card if it shares a name with a unit in the field.
+unit_neutral/26§Lone Outcast§Unit§6§1|9§5, pay 2 lives: swap this unit's stats until the end of turn.
+unit_neutral/27§The Gateway§Unit - Unique§6§0|6§Back deployment. / At the end of Tactics, destroy all units in battle with this. / At the end of Tactics in your turn, if this didn't move, exterminate target adjacent base.
+unit_neutral/28§The Tissue of Reality§Unit - Unique§6§0|6§When a unit performs a tactical move its controller must pay its cost, otherwise it is sacrificed.
+unit_neutral/29§The Arbiters of History§Unit - Unique§7§2|4§Players cannot play non-Source Events.
+unit_neutral/30§Transient Entity§Unit - Deity§8§9|9§When this leaves the field, shuffle it in its owner's main deck.
+unit_red/01§Swarming Ants§Unit§0§1|1§
+unit_red/02§Spiked Little Ones§Unit§0§2|1§When this deploys it deals 2 damage to target friendly base.
+unit_red/03§Goblong Juveniles§Unit - Goblong§0§2|1§Mourning 3 (when this unit leaves the field, all friendly units sharing a type with it move 3 steps backwards).
+unit_red/04§Mad Looters§Unit§1§2|1§When this deals battle damage, steal that much energy.
+unit_red/05§Raiding Party§Unit§1§1|1§Haste (this can move the turn it deploys). / When this Trespasses (moves into an empty enemy tile from a friendly tile) add 1 energy.
+unit_red/06§War Profiteers§Unit§1§1|1§When this deals base damage, add 1 energy.
+unit_red/07§Frenzied Fanatics§Unit§1§1|1§Sacrifice this: deal 1 damage to target tile.
+unit_red/08§Castigating Flamers§Unit§2§0|1§When this Trespasses (moves into an empty enemy tile from a friendly tile): deal 1 damage to target tile.
+unit_red/09§Furious Goblongs§Unit - Goblong§1§1|1§Haste (this can move the turn it deploys). / Fast (this moves up to two steps in the same direction as a tactical action).
+unit_red/10§Entropy Looters§Unit§1§1|1§When this deals base damage, add (Red) to your entropy state until the end of turn.
+unit_red/11§Opportunistic Thieves§Unit§1§1|1§When this deploys, steal 2 energy.
+unit_red/12§Masochist Fighters§Unit§1§2|3§When this is dealt damage, this deals that much damage to target friendly base.
+unit_red/13§Aimless Brutes§Unit§1§3|3§Your opponent chooses this unit's tactical action during their turn.
+unit_red/14§Impetuous Looters§Unit§2§2|2§When this deals base damage, Draw 1.
+unit_red/15§Red Bull§Unit§1§1|1§When this dies, add 2 energy.
+unit_red/16§Timid Goblongs§Unit - Goblong§1§3|2§This deals no battle damage unless there is an adjacent friendly unit.
+unit_red/17§Gnarly Goblongs§Unit - Goblong§1§2|2§When this deploys depopulate 2. / Mourning 2 (when this unit leaves the field, all friendly units sharing a type with it move 2 steps backwards).
+unit_red/18§Pesky Goblongs§Unit - Goblong§1§2|1§When a friendly Goblong unit deploys, search for a card named Pesky Goblongs and put it in your hand.
+unit_red/19§Goblong Warriors§Unit - Goblong§2§2|1§Overrun 2 (When this destroys an enemy unit or structure in battle it deals 2 damage to the defending structure or base).
+unit_red/20§Explosive Goblongs§Unit - Goblong§2§2|1§When this dies it deals 1 damage to target tile.
+unit_red/21§Iph Peak Acolytes§Unit§2§2|1§Trespassing (moves into an empty enemy tile from a friendly tile), 6: void target unit.
+unit_red/22§Goblong Gang§Unit - Goblong§2§2|1§When this deploys, main search for a card named Goblong Gang and put it in your hand. Shuffle.
+unit_red/23§Goblong Warlord§Unit - Goblong§2§1|2§Mourning 3 (when this unit leaves the field, all friendly units sharing a type with it move 3 steps backwards). / All Goblongs have Haste and get +1|+0.
+unit_red/24§Kraum Enhancers§Unit§2§2|2§When this Trespasses, target unit gets Taunt (movement actions of adjacent units must bring them into battle with this) this turn.
+unit_red/25§Goblong Brutes§Unit - Goblong§3§4|1§Mourning 1 (when this unit leaves the field, all friendly units sharing a type with it move 1 steps backwards).
+unit_red/26§Charging Warband§Unit§3§2|2§Haste (this can move the turn it deploys). / Fast (this moves up to two steps in the same direction as a tactical action).
+unit_red/27§Descendants of Rage§Unit§3§2|2§Frenzy (this deals base damage also during the enemy's turn).
+unit_red/28§Goblong Throngs§Unit - Goblong§3§4|2§When this dies you may deploy a Goblong unit from your hand into your front line. / Mourning 3 (when this unit leaves the field, all friendly units sharing a type with it move 3 steps backwards).
+unit_red/29§Stomping Beasts§Unit§3§3|3§Overrun 3 (When this destroys an enemy unit or structure in battle it deals 3 damage to the defending structure or base).
+unit_red/30§The Devourer Myth§Unit§3§7|7§Upkeep: sacrifice a unit.
+unit_red/31§Fiery Entity§Unit§3§5|1§When this dies add 3 energy.
+unit_red/32§Hungry Swarm§Unit§3§3|1§Haste (this can move the turn it deploys). / Fast (this moves up to two steps in the same direction as a tactical action).
+unit_red/33§Underworld Kingpin§Unit§3§2|3§When a player makes a play with a choice of targets they may pay depopulate 2. If they don't, their opponent chooses the targets instead.
+unit_red/34§Voices of the Flesh§Unit§5§3|4§Return: deal 1 damage to all units. / Trespass: deal 2 damage to all units. / Invade: deal 3 damage to all units.
+unit_red/35§Piron, Unscathed§Unit - Unique§4§5|5§Activations of your Aspects called Wooden Box of Goods cost 4 less. / Your events cannot be cancelled.
+unit_red/36§Celebrations Party§Unit§4§3|3§Taunt (movement actions of adjacent units must bring them into battle with this).
+unit_red/37§Legions Gathered§Unit§5§6|4§When this deploys all friendly units gain Swift, Fast and Haste this turn.
+unit_red/38§Gold Titan§Unit§6§4|5§When this deploys it deals 2 damage to all tiles.
