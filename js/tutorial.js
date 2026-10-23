@@ -66,7 +66,7 @@
     return out;
   };
   const whyNot = u => {
-    if (S.phase !== 1) return [`Las unidades se mueven en la fase de Tácticas. Ahora estás en ${PH[S.phase][0]}.`, `Units move in the Tactics phase. You're in ${PH[S.phase][1]}.`];
+    if (S.phase !== 1) return [`Las unidades se mueven en la fase de Tácticas. Ahora estás en ${PH[S.phase][0]}.`, `Units move in the Tactics phase. You're in ${E.L(...PH[S.phase])}.`];
     if (u.dep === S.turn) return ["Esta unidad se ha desplegado este turno: no puede moverse hasta el siguiente (salvo que tenga Haste).", "This unit deployed this turn: it can't move until next turn (unless it has Haste)."];
     if (u.acted) return ["Cada unidad tiene una sola acción táctica por turno.", "Each unit gets one tactical action per turn."];
     if (!moveTargets(u).length) return ["No hay ninguna casilla legal para esta unidad.", "There's no legal tile for this unit."];
@@ -102,8 +102,10 @@
       say(`${u.n} entra en la casilla de ${at(x, y, "foe")[0].n}: quedan trabadas en combate. Lucharán en la fase de Batalla.`, `${u.n} moves into ${at(x, y, "foe")[0].n}'s tile: they're engaged. They'll fight in the Battle phase.`);
     } else if (y === 0) {
       if (u.id === "rangers") S.f.back = true;
-      say(`${u.n} llega a la línea trasera rival${dist === 2 ? " con Fast" : ""}. Si sigue libre en la Batalla, asediará la base.`, `${u.n} reaches the enemy back line${dist === 2 ? " with Fast" : ""}. If still unengaged in Battle, it besieges the base.`);
-    } else say(`${u.n} se mueve ${dist} ${dist === 1 ? E.L("casilla", "tile") : E.L("casillas", "tiles")}.`, `${u.n} moves ${dist} ${dist === 1 ? "tile" : "tiles"}.`);
+      if (dist === 2) say(`${u.n} llega a la línea trasera rival con Fast. Si sigue libre en la Batalla, asediará la base.`, `${u.n} reaches the enemy back line with Fast. If still unengaged in Battle, it besieges the base.`);
+      else say(`${u.n} llega a la línea trasera rival. Si sigue libre en la Batalla, asediará la base.`, `${u.n} reaches the enemy back line. If still unengaged in Battle, it besieges the base.`);
+    } else if (dist === 1) say(`${u.n} se mueve 1 casilla.`, `${u.n} moves 1 tile.`);
+    else say(`${u.n} se mueve ${dist} casillas.`, `${u.n} moves ${dist} tiles.`);
     return true;
   };
 
@@ -126,7 +128,8 @@
     if (dead.length) parts.push([`Destruidas: ${dead.map(u => u.n).join(", ")}.`, `Destroyed: ${dead.map(u => u.n).join(", ")}.`]);
     if (siege) parts.push([`Asedio: la base rival pierde ${siege} de población.`, `Siege: the enemy base loses ${siege} population.`]);
     if (!parts.length) parts.push(["No hay combates ni asedios este turno.", "No battles or sieges this turn."]);
-    say(parts.map(p => p[0]).join(" "), parts.map(p => p[1]).join(" "));
+    const text = parts.map(p => E.L(p[0], p[1])).join(" "); // translate each sentence, then join
+    say(text, text);
     if (siege) { const b = $("#tBaseFoe"); b.classList.remove("hit"); void b.offsetWidth; b.classList.add("hit"); }
   };
 
@@ -158,7 +161,7 @@
   const render = (hits, dead) => {
     $("#tPhases").innerHTML = `<span class="label">${E.L("Turno", "Turn")} <b class="num">${S.turn}</b></span>` + PH.map((p, i) => `<span class="ph${i === S.phase ? " on" : ""}">${E.L(...p)}</span>`).join("");
     $("#tPopFoe").textContent = S.pop;
-    $("#tNext").innerHTML = S.phase === 3 ? E.L(`Empezar turno ${S.turn + 1} <span class="arr">→</span>`, `Start turn ${S.turn + 1} <span class="arr">→</span>`) : E.L(`Ir a ${PH[S.phase + 1][0]} <span class="arr">→</span>`, `Go to ${PH[S.phase + 1][1]} <span class="arr">→</span>`);
+    $("#tNext").innerHTML = S.phase === 3 ? E.L(`Empezar turno ${S.turn + 1} <span class="arr">→</span>`, `Start turn ${S.turn + 1} <span class="arr">→</span>`) : E.L(`Ir a ${PH[S.phase + 1][0]} <span class="arr">→</span>`, `Go to ${E.L(...PH[S.phase + 1])} <span class="arr">→</span>`);
     // hand
     const inHand = S.units.filter(u => u.side === "me" && !u.on && u.dep === 0);
     handEl.innerHTML = inHand.length ? inHand.map(u => `<button type="button" class="t-hcard${sel && sel.id === u.id ? " sel" : ""}" data-hand="${u.id}" aria-label="${E.esc(E.L("Desplegar ", "Deploy ") + u.n)}"><img src="assets/cards/${u.card}.webp" alt="" draggable="false"></button>`).join("")

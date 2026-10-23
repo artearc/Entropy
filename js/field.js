@@ -126,10 +126,13 @@
         vec4 mv = modelViewMatrix * vec4(p, 1.);
         gl_Position = projectionMatrix * mv;
         gl_PointSize = uSize * (.45 + aRnd.z*1.2) * uPix / -mv.z;
+        // bone by default; a share of particles carries the three entropies, and that share grows with chaos
         vec3 col = vec3(.93,.91,.88);
-        float k = aRnd.w;
-        if (k > .9) col = vec3(1.,.38,.22); else if (k > .85) col = vec3(.98,.26,.46);
-        else if (k > .79) col = vec3(.3,.52,1.); else if (k > .76) col = vec3(1.,.74,.32);
+        float k = aRnd.w, cut = .74 - .16 * min(uChaos, 1.);
+        if (k > cut) {
+          float h = fract(k * 7.31);
+          col = h < .36 ? vec3(.95,.36,.30) : h < .66 ? vec3(.36,.80,.52) : vec3(.42,.58,1.);
+        }
         vC = col; vA = (.45 + .75*aRnd.y) * (1. - .45*min(c,1.));
       }`,
     fragmentShader: `
@@ -211,7 +214,7 @@
   };
   E.Field = {
     morph, intro,
-    setChaos: v => { chaosScroll = v; },
+    setChaos: v => { chaosScroll = v; document.documentElement.style.setProperty("--ent", Math.min(1, v).toFixed(3)); },
     setBase: v => { chaosBase = v; },
     setAlpha: v => { canvas.style.opacity = v; },
     pause: v => { paused = v; }

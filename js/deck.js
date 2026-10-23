@@ -214,7 +214,7 @@
     if (sd > 10) W.push(E.L("El Side Deck admite como mucho 10 cartas.", "The Side Deck allows at most 10 cards."));
     A.over.forEach(id => W.push(E.L(`${BY[id].n}: más de 3 copias entre Main y Side.`, `${BY[id].n}: more than 3 copies across Main and Side.`)));
     A.wrongZone.forEach(id => W.push(E.L(`${BY[id].n} está en el mazo equivocado.`, `${BY[id].n} is in the wrong deck.`)));
-    Object.keys(ROW).forEach(k => { if (A.need[k] && !A.have[k]) W.push(E.L(`Tus cartas piden entropía ${ROW[k][0].toLowerCase()}, pero ningún Source la aporta.`, `Your cards need ${ROW[k][1].toLowerCase()} entropy, but no source provides it.`)); });
+    Object.keys(ROW).forEach(k => { if (A.need[k] && !A.have[k]) W.push(E.L(`Tus cartas piden entropía ${ROW[k][0].toLowerCase()}, pero ningún Source la aporta.`, `Your cards need ${E.L(...ROW[k]).toLowerCase()} entropy, but no source provides it.`)); });
     $("#dbWarn").innerHTML = W.length ? `<ul>${W.map(w => `<li>${E.esc(w)}</li>`).join("")}</ul>` : `<p class="ok-line">${E.L("El mazo cumple las reglas de construcción.", "The deck meets the construction rules.")}</p>`;
     $("#dbBar").innerHTML = `<span>Main <b class="num">${m}/40</b></span><span>Source <b class="num">${s}/21</b></span><span>Side <b class="num">${sd}/10</b></span>`;
   };

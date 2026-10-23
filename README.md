@@ -11,7 +11,18 @@ Web oficial de **Entropy**, un juego de cartas de estrategia táctica desarrolla
 - **Cartas:** las 448 cartas de la Beta 0.2 con buscador, filtros y vista 3D de cada carta.
 - **Mazos:** constructor de mazos con las reglas de construcción, curva de costes, comprobación de entropía y códigos para compartir.
 
-Toda la web está en español e inglés.
+La web está en inglés (por defecto), español, francés, italiano y alemán.
+
+## Idiomas
+
+- Inglés y español están escritos en `index.html` (cada texto lleva su `<span lang="en">` y su `<span lang="es">`) y en los mensajes de `js/` como `E.L("español", "English")`.
+- Francés, italiano y alemán salen de `data/translations.py`: una fila por texto con su versión en inglés y sus tres traducciones. Después de editarlo:
+
+```
+python data/translations.py
+```
+
+Eso regenera `js/locales/fr.js`, `it.js` y `de.js`. Si añades un texto nuevo en inglés, añade también su fila; si no, en esos tres idiomas se mostrará en inglés.
 
 ## Estructura
 

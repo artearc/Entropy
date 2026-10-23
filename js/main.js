@@ -86,7 +86,7 @@
       const keys = Object.keys(E.GLOSS).sort((a, b) => a.localeCompare(b)).filter(k => !w || norm(k + " " + E.GLOSS[k].join(" ")).includes(w));
       list.innerHTML = keys.length ? keys.map(k => {
         const n = E.CARDS.filter(c => (c.k || []).includes(k)).length;
-        return `<div class="g-item"><dt>${E.esc(k)}</dt><dd>${E.esc(E.L(...E.GLOSS[k]))}</dd>${n ? `<button type="button" class="g-see" data-k="${E.esc(k)}">${E.L(`Ver ${n} ${n === 1 ? "carta" : "cartas"}`, `See ${n} ${n === 1 ? "card" : "cards"}`)} →</button>` : ""}</div>`;
+        return `<div class="g-item"><dt>${E.esc(k)}</dt><dd>${E.esc(E.L(...E.GLOSS[k]))}</dd>${n ? `<button type="button" class="g-see" data-k="${E.esc(k)}">${n === 1 ? E.L("Ver 1 carta", "See 1 card") : E.L(`Ver ${n} cartas`, `See ${n} cards`)} →</button>` : ""}</div>`;
       }).join("") : `<p class="muted">${E.L("Ningún término coincide.", "No term matches.")}</p>`;
     };
     q.addEventListener("input", draw);
@@ -290,15 +290,19 @@
   });
 
   /* ---------- language toggle ---------- */
-  const langBtn = $("#langBtn");
-  const setLangBtn = () => { langBtn.textContent = E.lang() === "es" ? "EN" : "ES"; };
-  langBtn.addEventListener("click", () => E.setLang(E.lang() === "es" ? "en" : "es"));
+  const langSel = $("#langSel");
+  langSel.value = E.lang();
+  langSel.addEventListener("change", () => E.setLang(langSel.value));
   E.onLang(() => {
-    setLangBtn(); setTitle(); movePill(true);
-    $$("[data-words]").forEach(el => { if (el.offsetParent) splitWords(el); });
-    if (hasGSAP) requestAnimationFrame(() => ScrollTrigger.refresh());
+    langSel.value = E.lang(); setTitle(); movePill(true);
+    // text changed under the scroll animations: rebuild the current page's choreography
+    if (hasGSAP && current) {
+      if (ctx) ctx.revert();
+      const root = $(`#p-${current}`);
+      ctx = gsap.context(() => (REDUCED ? commonReveals(root) : modules[current](root)), root);
+      requestAnimationFrame(() => ScrollTrigger.refresh());
+    }
   });
-  E.applyAttrs(); setLangBtn();
 
   /* ---------- motion toggle (footer) ---------- */
   const motionBtn = $("#motionBtn");
