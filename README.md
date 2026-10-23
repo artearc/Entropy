@@ -10,7 +10,6 @@ Web oficial de **Entropy**, un juego de cartas de estrategia táctica desarrolla
 - **Jugar:** tutorial jugable sobre el tablero de 5×4, fases del turno, simulador de entropía y glosario de palabras clave.
 - **Cartas:** las 448 cartas de la Beta 0.2 con buscador, filtros y vista 3D de cada carta.
 - **Mazos:** constructor de mazos con las reglas de construcción, curva de costes, comprobación de entropía y códigos para compartir.
-- **Torneos:** cómo participar en los torneos beta.
 
 Toda la web está en español e inglés.
 

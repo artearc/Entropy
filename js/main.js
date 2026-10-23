@@ -185,7 +185,8 @@
   });
 
   /* ---------- router + diamond veil ---------- */
-  const PAGES = ["inicio", "jugar", "cartas", "mazos", "torneos"];
+  // "torneos" is switched off while the game moves to digital; add it back here and in the nav to restore it.
+  const PAGES = ["inicio", "jugar", "cartas", "mazos"];
   const TITLES = { inicio: ["Entropy", "Entropy"], jugar: ["Aprende a jugar", "Learn to play"], cartas: ["Card pool", "Card pool"], mazos: ["Mazos", "Decks"], torneos: ["Torneos", "Events"] };
   const veil = $("#veil"), veilT = $(".veil-t", veil), pill = $(".tab-pill");
   let current = null, ctx = null, busy = false;
@@ -215,7 +216,9 @@
     ctx = gsap.context(() => (REDUCED ? commonReveals(root) : modules[name](root)), root);
     E.Field.setBase(name === "inicio" ? 0 : .04);
     E.Field.setChaos(0); E.Field.setAlpha(1);
-    requestAnimationFrame(() => ScrollTrigger.refresh());
+    // refresh() restores the old scroll position; a new tab always starts at the top
+    ScrollTrigger.clearScrollMemory && ScrollTrigger.clearScrollMemory("manual");
+    requestAnimationFrame(() => { ScrollTrigger.refresh(); window.scrollTo(0, 0); });
     pageEnter(root);
   };
 
@@ -230,7 +233,11 @@
   const go = (name, origin, after) => {
     if (!PAGES.includes(name)) name = "inicio";
     if (busy) { pending = [name, after]; return; }
-    if (name === current) { if (after) after(); return; }
+    if (name === current) {
+      // same tab (e.g. the logo while on Inicio): go back to the top
+      window.scrollTo({ top: 0, behavior: REDUCED ? "auto" : "smooth" });
+      if (after) after(); return;
+    }
     try { history.replaceState(null, "", "#" + name); } catch (e) {}
     if (!current || !hasGSAP || REDUCED) { mount(name); E.Field.morph(name, !current); if (after) after(); return; }
     busy = true;
